@@ -1,5 +1,5 @@
 # largest among three numbers
-# Method_1
+# Method_1 using if-else statement
 if a > b:
   if a>c:
     print(a)
@@ -12,12 +12,19 @@ else:
      print(b)
   else:
      print(c)
-# Method_2
+     
+# Method_2 using if-else statement
 if a>b and a>c:
   print(a)
 elif b>a and b>c:
   print(b)
 else: 
   print(c)
+  
+# Method_3 using max function
+a = 10
+b = 14
+c = 12
+print(max(a, b, c))
 
 

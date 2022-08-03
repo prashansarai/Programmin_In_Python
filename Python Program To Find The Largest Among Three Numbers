@@ -1,36 +1,23 @@
-# swapping of two variables using third variable
-x = 10
-y = 50
-temp = x
-x = y
-y = temp
-print("Value of x:", x)
-print("Value of y:", y)
-
-# swapping of two variables without using third variable
-# 1. using comma operator:
-x = 10
-y = 50
- 
-x, y = y, x
- 
-print("Value of x:", x)
-print("Value of y:", y)
-
-#  2. using xor operator:
-
-x = 10
-y = 50
-
-x = x ^ y
-y = x ^ y
-x = x ^ y
- 
-print("Value of x:", x)
-print("Value of y:", y)
-
-# 3. using addition subtraction operator:
-x = 10
-y = 50
+# largest among three numbers
+# Method_1
+if a > b:
+  if a>c:
+    print(a)
+  else:
+    print(c)
+else:
+  if a>c:
+     print(b)
+  elif b>c:
+     print(b)
+  else:
+     print(c)
+# Method_2
+if a>b and a>c:
+  print(a)
+elif b>a and b>c:
+  print(b)
+else: 
+  print(c)
 
 

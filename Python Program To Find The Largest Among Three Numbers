@@ -1,4 +1,4 @@
-# swapping of two variables using third variable in python
+# swapping of two variables using third variable
 x = 10
 y = 50
 temp = x
@@ -7,7 +7,7 @@ y = temp
 print("Value of x:", x)
 print("Value of y:", y)
 
-# swapping of two variables without using third variable in python
+# swapping of two variables without using third variable
 # 1. using comma operator:
 x = 10
 y = 50
@@ -32,22 +32,5 @@ print("Value of y:", y)
 # 3. using addition subtraction operator:
 x = 10
 y = 50
- 
-x = x + y  
-y = x - y 
-x = x - y
- 
-print("Value of x:", x)
-print("Value of y:", y)
 
-# 4. using multiplication division operator:
 
-x = 10
-y = 50
- 
-x = x * y
-y = x / y
-x = x / y
- 
-print("Value of x : ", x)
-print("Value of y : ", y)

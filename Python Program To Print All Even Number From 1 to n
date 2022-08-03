@@ -1,0 +1,12 @@
+def print_even(n):
+    """Print all even numbers from 1 to n"""
+    i =2
+    while (i<=n):
+        print(i)
+        i+=2
+    
+def main():
+    n=int(input())
+    print_even(n)
+    
+main()

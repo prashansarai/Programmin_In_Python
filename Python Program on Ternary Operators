@@ -1,0 +1,43 @@
+//Write a program to assume a value of marks and print whether a person has failed or passed using ternary Operator.
+
+If Marks> =40 --> pass
+ELSE ---> fail
+
+
+
+def has_passed(marks):
+    print("pass") if marks>=40 else print("fail")
+    
+    
+    
+ 
+def main():
+    a = int(input())
+    has_passed(a)
+    
+main()
+
+
+//Write a program to print the maximum of two numbers using Ternary operator.
+
+Input:-
+a=3, b=5
+
+Output:-
+5
+
+def find_max(a,b):
+    print(a) if a>b else print(b)
+    
+    
+ 
+def main():
+    a = int(input())
+    b = int(input())
+    find_max(a,b)
+    
+main()
+
+
+
+

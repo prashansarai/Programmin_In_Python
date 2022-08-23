@@ -23,4 +23,31 @@ def main():
 main()
 
 
+//Given the Day number, print the Day name in lower case corresponding to it by using the help of switch statement.
+Note: Day 1 - is monday.
+
+If the day is not valid example 1> day >7 then print invalid
+
+
+def weekday_name(num):
+    if num== 1:
+        print("monday")
+    elif num == 2:
+        print("tuesday")
+    elif num == 3:
+        print("wednesday")
+    elif num == 4:
+        print("thursday")
+    elif num==5:
+        print("friday")
+    elif num == 6:
+        print("saturday")
+    elif num ==7:
+        print("sunday")
+    else:
+        print("invalid")
+a = int(input())
+weekday_name(a)
+
+
 

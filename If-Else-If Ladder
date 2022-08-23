@@ -1,0 +1,26 @@
+##Given a variable D (distance) write a program to print the cost associated with it as shown :-
+Distance                                 cost
+0 through 100                            5.00
+More than 100 but not more than 500      8.00
+More than 500 but less than 1,000        10.00
+1,000 or more                            12.00
+
+
+if a>=0 and a<=100:
+        print(5)
+    elif a>100 and a<=500:
+        print(8)
+    elif a>500 and a<=1000:
+        print(10)
+    else:
+        print(12)
+    
+
+def main():
+    a = int(input())
+    print_cost(a)
+    
+main()
+
+
+

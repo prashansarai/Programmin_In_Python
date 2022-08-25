@@ -1,0 +1,18 @@
+def armstrng(n):
+    sum = 0
+    i=n
+    while(i != 0):
+       dig=i%10
+       sum+=(dig**p)
+       i//=10
+    return sum
+
+def chk_armstrng():
+    if (armstrng(n) == n):
+        print("Armstrong Number")
+    else:
+        print("Not Armstrong Number")
+        
+n = int(input())
+p = len(str(n))
+chk_armstrng()

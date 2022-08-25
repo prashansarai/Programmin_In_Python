@@ -1,0 +1,12 @@
+def revrs(n):
+  rev = 0
+  i=n
+  while(i!=0):
+    rem = i%10
+    rev = rev*10 + rem
+    i//=10
+  return rev
+
+n = int(input())
+print(revrs(n))
+

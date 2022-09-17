@@ -1,0 +1,63 @@
+//Method 1
+def reverse(s):
+    str = ""
+    for i in s:
+        str = i + str
+    return str
+  
+s = input()
+  
+print("The original string is :",s)  
+print("The reversed string(using loops) is :",reverse(s))
+
+
+
+
+//Method 2
+''' converting string to list ; using reverse() function on it and joining it to form string '''
+
+def reverse(s):
+    s=list(s)
+    s.reverse()
+    return "".join(s)
+    
+  
+s = input()
+  
+print("The original string is :",s)
+
+print("The reversed string(using loops) is :",reverse(s))
+
+
+
+
+//Method 3
+'''using extended slicing'''
+def reverse(s):
+    return s[-1: : -1]
+    
+  
+s = input()
+  
+print("The original string is :",s)
+
+print("The reversed string(using loops) is :",reverse(s))
+
+
+
+//Method 4
+'''using reversed() function'''
+def reverse(s):
+    s = ''.join(reversed(s))
+    return s
+    
+  
+s = input()
+  
+print("The original string is :",s)
+
+print("The reversed string(using loops) is :",reverse(s))
+
+
+
+
